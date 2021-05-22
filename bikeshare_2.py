@@ -7,7 +7,7 @@ import os
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-              
+
 # dictionary of days of the week from id to name
 days_of_the_week = {
     0: 'Monday',
@@ -182,6 +182,7 @@ def user_stats(df):
     # Display counts of user types
     print('User type Counts: ', df['User Type'].value_counts())
 
+    # try except used to deal with any exceptions and errors in dataset
     try:
         # Display counts of gender
         print('Gender Counts: ', df['Gender'].value_counts())
