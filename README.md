@@ -20,3 +20,6 @@ this is the first change i am making to this file
 
 ## edit 2
 bikeshare_2.py looks through the data of a bike sharing service across 2 cities
+
+## edit 3
+it is a python file that loads data from csvs'
