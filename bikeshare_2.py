@@ -151,6 +151,7 @@ def station_stats(df):
     most_f_combo = (df['Start Station'] + ' to ' + df['End Station']).mode()
     print('Most common Start- End Station combination: ', most_f_combo.iloc[0])
 
+    # timer to monitor how long this function has taken to execute
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
