@@ -7,6 +7,8 @@ import os
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+              
+# dictionary of days of the week from id to name
 days_of_the_week = {
     0: 'Monday',
     1: 'Tuesday',
