@@ -17,3 +17,6 @@ It's important to give proper credit. Add links to any repo that inspired you or
 
 ## edit 1
 this is the first change i am making to this file
+
+## edit 2
+bikeshare_2.py looks through the data of a bike sharing service across 2 cities
